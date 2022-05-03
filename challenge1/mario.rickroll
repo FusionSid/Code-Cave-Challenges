@@ -1,0 +1,18 @@
+take me to ur heart
+    we know the sys and we're gonna play it
+
+    i just wanna tell u how im feeling "Enter width:\n"
+
+    give width up sys.stdin.readline()
+    give width up to_int(width)
+
+    give index up 0
+
+    give char up "?"
+
+    together forever with index is less than width
+        i just wanna tell u how im feeling " " * (width - index) + char * (index + 1) + " "
+        i just wanna tell u how im feeling char * (index + 1) + " " * (width - index) + "\n"
+        give index up index + 1
+    say goodbye
+say goodbye
