@@ -1,0 +1,45 @@
+take me to ur heart
+    we know the sys and we're gonna play it
+
+    i just wanna tell u how im feeling "Enter a 16 digit card number:\n"
+    give card_number up sys.stdin.readline()
+    give card_number up card_number.replace(" ", "").replace("\n", "")
+
+    and if u ask me how im feeling length(card_number) != 16
+        i just wanna tell u how im feeling "Card number must be 16 digits\n"
+        i just wanna tell u how im feeling sys.exit(1)
+    say goodbye
+
+    and if u ask me how im feeling card_number.isnumeric() == False
+        i just wanna tell u how im feeling "Card number must be 16 Digits\n"
+        i just wanna tell u how im feeling sys.exit(1)
+    say goodbye
+
+    give pattern up [2, 1]
+    give TOTAL up 0
+
+    give index up 0
+
+    together forever with index is less than length(card_number)
+        give multiply_amount up pattern[(index % 2)]
+        give result up (to_int(card_number[index])*multiply_amount)
+
+        give index up index + 1
+
+        and if u ask me how im feeling result is greater than 9
+            give result up to_string(result)
+            give result up to_int(result[0]) + to_int(result[1])
+        say goodbye
+
+        give TOTAL up TOTAL + result
+    say goodbye
+
+    i just wanna tell u how im feeling f"\nTotal: {TOTAL}\n\n"
+
+    and if u ask me how im feeling TOTAL % 10 == 0
+        i just wanna tell u how im feeling "Card is Valid\n"
+        i just wanna tell u how im feeling sys.exit(1)
+    say goodbye
+
+    i just wanna tell u how im feeling "Card is not valid\n"
+say goodbye

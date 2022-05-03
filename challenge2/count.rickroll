@@ -1,0 +1,42 @@
+take me to ur heart
+    we know the re and we're gonna play it
+    we know the sys and we're gonna play it
+
+    i just wanna tell u how im feeling "Enter a string:\n"
+    give phrase up sys.stdin.readline()
+
+    # give phrase up "That's the password: 'PASSWORD 123'!, cried the Special Agent.\nSo I fled"
+
+    give new_phrase up re.split(" |\\n|\\t", phrase)
+
+    gonna fuck_punct item
+        give item up item.lower()
+        give item up re.sub(",|\*|\?|\^|\$|\(|\)|\[|\]|\{|\}|\||\.|!|'|:", "", item)"
+        when i give my item it will be completely
+    say goodbye
+
+    give new_phrase up list(map(fuck_punct, new_phrase))
+
+    give word_counts up {}
+
+    give index up 0
+
+    together forever with index is less than length(new_phrase)
+        give word_counts[new_phrase[index]] up 0
+        give index up index + 1
+    say goodbye
+
+    give index up 0
+
+    together forever with index is less than length(new_phrase)
+        give word_counts[new_phrase[index]] up word_counts[new_phrase[index]] + 1
+        give index up index + 1
+    say goodbye
+
+    give index up 0
+    together forever with index is less than length(word_counts)
+        i just wanna tell u how im feeling f"{list(word_counts.keys())[index]}: {word_counts[new_phrase[index]]}\n"
+        give index up index + 1
+    say goodbye
+
+say goodbye
