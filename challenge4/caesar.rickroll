@@ -1,0 +1,19 @@
+take me to ur heart
+    we know the string and we're gonna play it
+    we know the sys and we're gonna play it
+
+    i just wanna tell u how im feeling "Enter text:\n"
+    give text up sys.stdin.readline()
+
+    i just wanna tell u how im feeling "Enter shift amount:\n"
+    give shift up sys.stdin.readline()
+
+    give shift up to_int(shift) % 26
+
+    give alphabet up string.ascii_lowercase
+    give shifted_alphabet up alphabet[shift:] + alphabet[:shift]
+    give table up str.maketrans(alphabet, shifted_alphabet)
+
+    i just wanna tell u how im feeling f"Encrypted Text: {text.translate(table)}"
+
+say goodbye
