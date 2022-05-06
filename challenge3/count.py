@@ -7,7 +7,9 @@ print(f"Original Phrase: {phrase}")
 
 new_phrase = re.split(" |\\n|\\t", phrase)
 new_phrase = [i.lower() for i in new_phrase]
-new_phrase = [re.sub("\*|\?|\^|\$|\(|\)|\[|\]|\{|\}|\||\.|!|'|\"|:|,", "", i) for i in new_phrase]
+new_phrase = [
+    re.sub("\*|\?|\^|\$|\(|\)|\[|\]|\{|\}|\||\.|!|'|\"|:|,", "", i) for i in new_phrase
+]
 
 print(f"New Phrase (with space inserted as sep): {' '.join(new_phrase)}")
 

@@ -11,10 +11,10 @@ int main()
     int shift;
     printf("Enter the shift: ");
     scanf("%i", &shift);
-    
+
     char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
 
-    for (int i = 0; i < strlen(text); i++) 
+    for (int i = 0; i < strlen(text); i++)
     {
         if (isalpha(text[i]))
         {
@@ -27,10 +27,10 @@ int main()
                 }
                 index++;
             }
-            int aindex = (index+shift) % 26;
+            int aindex = (index + shift) % 26;
             printf("%c", alphabet[aindex]);
-        } 
-        else 
+        }
+        else
         {
             printf("%c", text[i]);
         }
