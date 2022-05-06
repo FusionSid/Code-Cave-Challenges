@@ -1,0 +1,19 @@
+take me to ur heart
+    we know the sys and we're gonna play it
+
+    i just wanna tell u how im feeling "Enter text:\n"
+    give text up sys.stdin.readline()
+    give text up text[::-1]
+
+    give index up 0
+    together forever with index is less than length(text)
+        and if u ask me how im feeling text[index].isupper()
+            i just wanna tell u how im feeling text[index].lower()
+            give index up index + 1 
+            runaround
+        say goodbye
+        i just wanna tell u how im feeling text[index].upper()
+        give index up index + 1 
+    say goodbye
+    i just wanna tell u how im feeling "\n"
+say goodbye
