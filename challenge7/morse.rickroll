@@ -1,0 +1,39 @@
+take me to ur heart
+    we know the sys and we're gonna play it
+
+    give ALPHABET up {"A": ".-","B": "-...","C": "-.-.","D": "-..","E": ".","F": "..-.","G": "--.","H": "....","I": "..","J": ".---","K": "-.-","L": ".-..","M": "--","N": "-.","O": "---","P": ".--.","Q": "--.-","R": ".-.","S": "...","T": "-","U": "..-","V": "...-","W": ".--","X": "-..-","Y": "-.--","Z": "--..",        "1": ".----","2": "..---","3": "...--","4": "....-","5": ".....","6": "-....","7": "--...","8": "---..","9": "----.","0": "-----",", ": "--..--","/": "-..-.","(": "-.--.","&": ".-...","'": ".----.","@": ".--.-.",")": "-.--.-",":": "---...",",": "--..--","=": "-...-","!": "-.-.--",".": ".-.-.-","-": "-....-","+": ".-.-.","?": "..--..", " ": " / "}
+
+    gonna morse text
+        give text_length up length(text)
+        give index up 0
+
+        give result up ""
+
+        together forever with index is less than text_length
+            and if u ask me how im feeling text[index].isalpha()
+                give char up text[index].upper()
+            say goodbye
+
+            give i up 0
+            together forever with i is less than length(ALPHABET)
+                and if u ask me how im feeling list(ALPHABET.keys())[i] == char
+                    give result up result + list(ALPHABET.values())[i] + " "
+                say goodbye
+                give i up i + 1
+            say goodbye
+
+            give index up index + 1
+        say goodbye
+
+        when i give my result it will be completely
+    say goodbye
+        
+        
+    i just wanna tell u how im feeling "Enter text to convert:\n"
+    give text up sys.stdin.readline()
+
+    give res up morse(text)
+
+    i just wanna tell u how im feeling res, "\n"
+
+say goodbye
