@@ -1,0 +1,15 @@
+take me to ur heart
+    we know the sys and we're gonna play it
+
+    i just wanna tell u how im feeling "Enter Text:\n"
+    give text up sys.stdin.readline()
+
+    give text_list up []
+    give index up 0
+    together forever with index < length(text)
+        py: text_list.append("{:02x}".format(ord(text[index])))
+        give index up index + 1
+    say goodbye
+
+    i just wanna tell u how im feeling " ".join(text_list), "\n"
+say goodbye
