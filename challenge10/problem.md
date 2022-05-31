@@ -1,0 +1,2 @@
+Currency converter
+this task you need to be able to convert a amount of money from one currency to 4 others. we would like this coverter to get that days rated. you can use apis you cannot use a pre made packages. if possible with your language we would like some from of gui. if you cant make a gui your still free to submit and show us what you have made
