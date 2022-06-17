@@ -22,8 +22,7 @@ def invert_tree(root: TreeNode) -> TreeNode:
 
 
 # Testing
-def create_list(tree, templist=[]):
-
+def create_list(tree):
     items = []
     queue = [tree]
 
@@ -32,14 +31,9 @@ def create_list(tree, templist=[]):
         queue = []
 
         for item in copy:
-            if item is None:
-                items.append(None)
-                queue.append(None)
-                queue.append(None)
-            else:
-                items.append(item.val)
-                queue.append(item.left)
-                queue.append(item.right)
+            items.append(item.val)
+            queue.append(item.left)
+            queue.append(item.right)
 
         if all((x is None for x in queue)):
             break
