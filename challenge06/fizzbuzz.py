@@ -8,5 +8,6 @@ def fizzbuzz(num: int) -> str:
     else:
         return num
 
+
 for i in range(101):
     print(fizzbuzz(i))

@@ -40,12 +40,15 @@ def create_list(tree):
 
     return items
 
+
 root1 = TreeNode(1, TreeNode(2), TreeNode(3))
 print("1\nTree:", create_list(root1))
 result1 = invert_tree(root1)
 print("Inverted:", create_list(result1))
 
-root2 = TreeNode(1, TreeNode(7, TreeNode(4), TreeNode(2)), TreeNode(3, TreeNode(6), TreeNode(9)))
+root2 = TreeNode(
+    1, TreeNode(7, TreeNode(4), TreeNode(2)), TreeNode(3, TreeNode(6), TreeNode(9))
+)
 print("\n2\nTree:", create_list(root2))
 result2 = invert_tree(root2)
 print("Inverted:", create_list(result2))
