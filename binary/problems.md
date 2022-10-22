@@ -1,4 +1,4 @@
-Binary To ASCII Conversion
+# Binary To ASCII Conversion
 
 Create a function that takes a string of 1's and 0's (binary) as an argument and return the equivalent decoded ASCII text. Characters can be in the range of "00000000" to "11111111", which means every eight digits of binary input represents a single character.
 
@@ -21,16 +21,3 @@ binaryConversion("01000001011011010110000101111010011010010110111001100111001000
 Notes
 
 If you are given an empty string as input, you must also return an empty string. Otherwise, the input will always be a valid binary string.
-
-challenge 1/2
-Interview question
-
-This problem was asked by Microsoft.
-
-Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
-
-For example, given [100, 4, 200, 1, 3, 2], the longest consecutive element sequence is [1, 2, 3, 4]. Return its length: 4.
-
-Your algorithm should run in O(n) complexity.
-
-challange 2/2
