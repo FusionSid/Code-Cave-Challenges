@@ -1,0 +1,22 @@
+take me to ur heart
+    gonna generate_word num
+        give i up 2
+
+        and if u ask me how im feeling num < 2
+            when i give my "invalid" it will be completely
+        say goodbye
+        
+        give res up ["9", "6"] # (instead of b & a I used 9 & 6)
+        together forever with i < num
+            py: res.append(res[i-1] + res[i-2])
+            give i up i+1
+        say goodbye
+
+        when i give my ", ".join(res) it will be completely
+
+    say goodbye
+
+    i just wanna tell u how im feeling generate_word(1) + "\n"
+    i just wanna tell u how im feeling generate_word(3) + "\n"
+    i just wanna tell u how im feeling generate_word(7) + "\n"
+say goodbye
